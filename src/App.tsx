@@ -25,15 +25,32 @@ function App() {
       <div style={{
         padding: '0 20px 20px',
         borderBottom: `1px solid ${theme.colors.border}`,
-        marginBottom: '20px'
+        marginBottom: '20px',
+        display: 'flex',
+        alignItems: 'center',
+        gap: '8px'
       }}>
+        <div style={{
+          width: '32px',
+          height: '32px',
+          backgroundColor: theme.colors.primary,
+          borderRadius: '6px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: 'white',
+          fontSize: '18px',
+          fontWeight: 'bold'
+        }}>
+          Z
+        </div>
         <h2 style={{
           color: theme.colors.text,
-          fontSize: '18px',
+          fontSize: '16px',
           fontWeight: 600,
           margin: 0
         }}>
-          Zensegur Portal
+          Portal
         </h2>
       </div>
 
