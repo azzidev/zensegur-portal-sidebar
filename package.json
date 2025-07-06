@@ -15,7 +15,15 @@
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^5.1.4",
+    "html-webpack-plugin": "^5.6.3",
+    "ts-loader": "^9.5.1",
+    "style-loader": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "zensegur-theme": "^1.2.0",
+    "react-router-dom": "^6.29.0"
   },
   "scripts": {
     "start": "webpack serve --mode development",
