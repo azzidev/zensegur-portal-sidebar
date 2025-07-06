@@ -1,5 +1,7 @@
 import React from 'react';
 import { useTheme } from 'zensegur-theme';
+import logoLight from './assets/logo-light.png';
+import logoDark from './assets/logo-dark.png';
 
 console.log('[sidebar] React version:', React.version);
 
@@ -31,10 +33,7 @@ function App() {
         gap: '8px'
       }}>
         <img 
-          src={theme.mode === 'light' 
-            ? 'https://zensegur-97bda.web.app/static/media/logo-light.png'
-            : 'https://zensegur-97bda.web.app/static/media/logo-dark.png'
-          }
+          src={theme.mode === 'light' ? logoLight : logoDark}
           alt="Zensegur Logo"
           style={{
             height: '32px',
