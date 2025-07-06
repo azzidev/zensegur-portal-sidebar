@@ -30,20 +30,17 @@ function App() {
         alignItems: 'center',
         gap: '8px'
       }}>
-        <div style={{
-          width: '32px',
-          height: '32px',
-          backgroundColor: theme.colors.primary,
-          borderRadius: '6px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          color: 'white',
-          fontSize: '18px',
-          fontWeight: 'bold'
-        }}>
-          Z
-        </div>
+        <img 
+          src={theme.mode === 'light' 
+            ? 'https://zensegur-97bda.web.app/static/media/logo-light.png'
+            : 'https://zensegur-97bda.web.app/static/media/logo-dark.png'
+          }
+          alt="Zensegur Logo"
+          style={{
+            height: '32px',
+            width: 'auto'
+          }}
+        />
         <h2 style={{
           color: theme.colors.text,
           fontSize: '16px',
